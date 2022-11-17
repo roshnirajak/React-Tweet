@@ -1,5 +1,13 @@
+/* *{
+  font-size: 18px;
+} */
+
+.contents{
+  display: flex;
+  padding:20px
+}
 .container{
-  margin-left:30px
+  padding:20px
 }
 #box{
   width:200px;
@@ -8,10 +16,26 @@
   border:1px solid #dfdfdf;
   border-radius:10px;
 }
+/* input{
+  border-top: 0px;
+  border-right:0px;
+  border-left:0px;
+  font-size: 16px;
+} */
 h1{
   color:dodgerblue;
-  margin-bottom:0px
+  margin-left:35px
 }
+
 button{
-  padding:3px 10px 3px 10px;
+  border:none;
+  background-color: transparent;
+  padding: 0px;
+}
+#add{
+  padding-bottom:0px
+}
+.uname{
+  font-weight:600;
+
 }
