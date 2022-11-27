@@ -1,16 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Tweet from './Tweet';
+import Menu from './array_api';
 
-function App() {
-
+const App = () => {
+const [menuData, setMenuData]= useState(Menu); 
   return (
-    <div>
+    <>
       <h1>Tweet</h1>
-      <div className="contents">
-        <Tweet />
-      </div>
-    </div>
+        <Tweet menuData={menuData} />
+    </>
   );
 }
 
