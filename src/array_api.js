@@ -14,6 +14,14 @@ const Menu=[
     {
         uname:"@flick",
         content:"my rival made my day"
+    },
+    {
+        uname: "@sugar",
+        content: "Lemme ruin ur bones"
+    },
+    {
+        uname:"@modi",
+        content:"notebandi"
     }
 ];
 export default Menu;
